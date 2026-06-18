@@ -14,7 +14,7 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero */}
       <section className="text-center py-24 px-6">
         <h2 className="text-5xl md:text-6xl font-extrabold mb-6">
           Welcome to <span className="text-purple-500">GameVerse</span>
@@ -35,20 +35,17 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-          {/* Card 1 */}
-          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition duration-300 border border-gray-800">
+          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800">
             <h4 className="text-xl font-bold mb-2">Minecraft</h4>
             <p className="text-gray-400">Build and create anything.</p>
           </div>
 
-          {/* Card 2 */}
-          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition duration-300 border border-gray-800">
+          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800">
             <h4 className="text-xl font-bold mb-2">Fortnite</h4>
             <p className="text-gray-400">Battle Royale action.</p>
           </div>
 
-          {/* Card 3 */}
-          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition duration-300 border border-gray-800">
+          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800">
             <h4 className="text-xl font-bold mb-2">Cyberpunk 2077</h4>
             <p className="text-gray-400">Futuristic open-world RPG.</p>
           </div>
