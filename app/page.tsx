@@ -4,7 +4,7 @@ export default function Home() {
 
       {/* Navbar */}
       <header className="flex justify-between items-center px-8 py-5 border-b border-gray-800">
-        <h1 className="text-2xl font-bold text-purple-500">🎮 GameVerse</h1>
+        <h1 className="text-2xl font-bold text-pink-500">🎮 GameVerse</h1>
 
         <nav className="flex gap-6 text-gray-300 text-sm">
           <a className="hover:text-white cursor-pointer">News</a>
@@ -14,17 +14,17 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Hero */}
+      {/* Hero Section */}
       <section className="text-center py-24 px-6">
         <h2 className="text-5xl md:text-6xl font-extrabold mb-6">
-          Welcome to <span className="text-purple-500">GameVerse</span>
+          Welcome to <span className="text-pink-500">GameVerse</span>
         </h2>
 
         <p className="text-gray-400 max-w-2xl mx-auto text-lg">
           Your ultimate destination for gaming news, reviews, esports coverage, guides, and trending games.
         </p>
 
-        <button className="mt-8 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-xl transition">
+        <button className="mt-8 px-6 py-3 bg-pink-600 hover:bg-pink-700 rounded-xl transition">
           Explore Games
         </button>
       </section>
@@ -35,20 +35,23 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800">
+          {/* Minecraft */}
+          <a href="/minecraft" className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800 block">
             <h4 className="text-xl font-bold mb-2">Minecraft</h4>
             <p className="text-gray-400">Build and create anything.</p>
-          </div>
+          </a>
 
-          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800">
+          {/* Fortnite */}
+          <a href="/fortnite" className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800 block">
             <h4 className="text-xl font-bold mb-2">Fortnite</h4>
             <p className="text-gray-400">Battle Royale action.</p>
-          </div>
+          </a>
 
-          <div className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800">
+          {/* Cyberpunk */}
+          <a href="/cyberpunk" className="bg-gray-900 rounded-2xl p-6 hover:scale-105 transition border border-gray-800 block">
             <h4 className="text-xl font-bold mb-2">Cyberpunk 2077</h4>
             <p className="text-gray-400">Futuristic open-world RPG.</p>
-          </div>
+          </a>
 
         </div>
       </section>
